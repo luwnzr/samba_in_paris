@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samba in Paris</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <h1>Samba in Paris</h1> <!-- Nome do restaurante -->
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Cardápio</a></li>
+        <li><a href="#about">Nossa História</a></li>
+        <li><a href="#contact">Contato & Reservas</a></li>
+      </ul>
+    </nav>
+    <button class="btn-reserva">Reservar</button>
+  </header>
+
+  <!-- Seção Inicial (Hero Section) -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Bem-vindos ao Samba in Paris</h1>
+      <p>Uma experiência gastronômica francesa autêntica e elegante.</p>
+      <div class="cta-buttons">
+        <a href="#menu" class="btn">Ver Menu</a>
+        <a href="#contact" class="btn">Fazer Reserva</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Seção Menu -->
+  <section id="menu" class="menu">
+    <div class="menu-header">
+      <h2>Nosso Cardápio</h2>
+      <p>Explore as deliciosas opções da culinária francesa, feitas com ingredientes de qualidade e muito sabor.</p>
+    </div>
+
+    <div class="menu-categories">
+      
+      <!-- Entradas -->
+      <div class="menu-category">
+        <h3>Entradas</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="img/Soupe à l'oignon.webp" alt="Soupe à l'oignon">
+            <div class="item-info">
+              <h4>Soupe à l'oignon</h4>
+              <p>Tradicional sopa francesa de cebola gratinada com queijo derretido.</p>
+              <span class="price">R$ 25,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Escargots de Bourgogne.jpg" alt="Escargots de Bourgogne">
+            <div class="item-info">
+              <h4>Escargots de Bourgogne</h4>
+              <p>Caracóis preparados com manteiga de alho, ervas e especiarias frescas.</p>
+              <span class="price">R$ 30,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Foie Gras.jpg" alt="Foie Gras">
+            <div class="item-info">
+              <h4>Foie Gras</h4>
+              <p>Delicioso patê de fígado de pato ou ganso, servido com torradas.</p>
+              <span class="price">R$ 60,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pratos Principais -->
+      <div class="menu-category">
+        <h3>Pratos Principais</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="img/Boeuf Bourguignon.jpg" alt="Boeuf Bourguignon">
+            <div class="item-info">
+              <h4>Boeuf Bourguignon</h4>
+              <p>Carne de boi cozida lentamente em vinho tinto, cebolas e cogumelos.</p>
+              <span class="price">R$ 75,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Coq au Vin.jpg" alt="Coq au Vin">
+            <div class="item-info">
+              <h4>Coq au Vin</h4>
+              <p>Frango macio cozido com vinho tinto, cogumelos e especiarias.</p>
+              <span class="price">R$ 65,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Ratatouille.jpg" alt="Ratatouille">
+            <div class="item-info">
+              <h4>Ratatouille</h4>
+              <p>Guisado de legumes frescos da estação, temperado com ervas francesas.</p>
+              <span class="price">R$ 55,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Magret de Canard.jpg" alt="Magret de Canard">
+            <div class="item-info">
+              <h4>Magret de Canard</h4>
+              <p>Peito de pato grelhado, servido com molho de frutas vermelhas.</p>
+              <span class="price">R$ 80,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Chateaubriand.jpg" alt="Chateaubriand">
+            <div class="item-info">
+              <h4>Chateaubriand</h4>
+              <p>Corte nobre de carne, servido com molho béarnaise e acompanhamentos.</p>
+              <span class="price">R$ 100,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Blanquette de Veau.jpg" alt="Blanquette de Veau">
+            <div class="item-info">
+              <h4>Blanquette de Veau</h4>
+              <p>Guisado de vitela com molho branco cremoso e arroz.</p>
+              <span class="price">R$ 70,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sobremesas -->
+      <div class="menu-category">
+        <h3>Sobremesas</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="img/Crème Brûlée.jpg" alt="Crème Brûlée">
+            <div class="item-info">
+              <h4>Crème Brûlée</h4>
+              <p>Creme de baunilha com uma crosta de açúcar caramelizado.</p>
+              <span class="price">R$ 20,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Tarte Tatin.jpg" alt="Tarte Tatin">
+            <div class="item-info">
+              <h4>Tarte Tatin</h4>
+              <p>Torta invertida de maçãs caramelizadas.</p>
+              <span class="price">R$ 25,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/madelines.jpg" alt="Madeleines">
+            <div class="item-info">
+              <h4>Madeleines</h4>
+              <p>Pequenos bolinhos de baunilha, levemente crocantes.</p>
+              <span class="price">R$ 15,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vinhos -->
+      <div class="menu-category">
+        <h3>Vinhos</h3>
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="img/Château Margaux.jpg" alt="Château Margaux">
+            <div class="item-info">
+              <h4>Château Margaux</h4>
+              <p>Vinho tinto premiado da região de Bordeaux.</p>
+              <span class="price">R$ 150,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/Chablis Premier Cru.jpg" alt="Chablis Premier Cru">
+            <div class="item-info">
+              <h4>Chablis Premier Cru</h4>
+              <p>Vinho branco elegante e refrescante do Vale do Loire.</p>
+              <span class="price">R$ 120,00</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="img/catena.jpg" alt="Catena">
+            <div class="item-info">
+              <h4>Catena</h4>
+              <p>Vinho tinto premium da vinícola Catena Zapata, localizada em Mendoza, Argentina.</p>
+              <span class="price">R$ 170,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Seção Sobre Nós -->
+  <section id="about" class="about">
+    <h2>Nossa História</h2>
+    <p>A história do nosso restaurante começou com uma paixão por culinária francesa...</p>
+    <div class="team">
+      <div class="team-member">
+        <img src="img/cheff.jpg" alt="Chef">
+        <p><strong>Chef Alex Atala</strong><br>Chef renomado, especializado na fusão de sabores franceses e brasileiros.</p>
+      </div>
+      <div class="team-member">
+        <img src="img/equipe.jpg" alt="Equipe">
+        <p><strong>Equipe</strong><br>Uma equipe dedicada à excelência na cozinha.</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact">
+      <h2 class="contact-title">Contato & Reservas</h2>
+      <div class="contact-content">
+  
+        <!-- Formulário de Contato -->
+        <div class="contact-form">
+          <h3>Entre em Contato</h3>
+          <form action="processar_reserva.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+  
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+  
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message"></textarea>
+  
+            <button type="submit" class="btn">Enviar</button>
+          </form>
+        </div>
+  
+        <!-- Área de Reservas -->
+        <div class="reservation-form">
+          <h3>Faça sua Reserva</h3>
+          <form action="processar_reserva.php" method="POST">
+            <label for="res-name">Nome Completo:</label>
+            <input type="text" id="res-name" name="res-name" required>
+  
+            <label for="res-email">E-mail:</label>
+            <input type="email" id="res-email" name="res-email" required>
+  
+            <label for="res-date">Data da Reserva:</label>
+            <input type="date" id="res-date" name="res-date" required>
+  
+            <label for="res-time">Hora da Reserva:</label>
+            <input type="time" id="res-time" name="res-time" required>
+  
+            <label for="res-people">Número de Pessoas:</label>
+            <input type="number" id="res-people" name="res-people" min="1" required>
+  
+            <label for="res-message">Mensagem (Opcional):</label>
+            <textarea id="res-message" name="res-message"></textarea>
+  
+            <button type="submit" class="btn">Reservar</button>
+          </form>
+        </div>
+  
+        <!-- Informações de Contato -->
+        <div class="contact-info">
+          <p><strong>Endereço:</strong> Rua da Gastronomia, 123, SP</p>
+          <p><strong>Telefone:</strong> (11) 1234-5678</p>
+          <p><strong>E-mail:</strong> contato@restaurante.com</p>
+        </div>
+      </div>
+    </section>  
+
+  <footer>
+    <p>&copy; 2025 Samba in Paris. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
